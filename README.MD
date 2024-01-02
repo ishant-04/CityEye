@@ -1,4 +1,4 @@
-Geo-Tagging System of CCTV Cameras for Centralized Surveillance
+<h1 align = "center" > Geo-Tagging System of CCTV Cameras for Centralized Surveillance </h1>
 
 
 Centralized Camera Management System Overview This project aims to create a centralized web portal that acts as a hub for managing privately owned cameras. It provides a single point of access to all functionalities related to camera registration, access to real-time footage, standardized data collection, and more.
