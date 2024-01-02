@@ -1,10 +1,3 @@
-# 🍃 Next.js Leaflet Starter
-
-Jumpstart your new Next.js mapping project with Leaflet!
-
-## ⚡ Quick Deploy
-[![Deploy with Vercel Now](https://zeit.co/button)](https://vercel.com/import/project?template=https://github.com/colbyfayock/next-leaflet-starter) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/colbyfayock/next-leaflet-starter)
-
 
 ## 🧰 What This Includes
 * [Next.js](https://nextjs.org/)
@@ -18,7 +11,7 @@ Jumpstart your new Next.js mapping project with Leaflet!
 ### Quick Start
 
 ```
-npx create-next-app -e https://github.com/colbyfayock/next-leaflet-starter
+npx create-next-app -e https://github.com/ishant-04/RJPOLICE_HACK_593_R3negades_6
 ```
 
 ### Running the Project
