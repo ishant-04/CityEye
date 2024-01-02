@@ -25,14 +25,14 @@ export default function Home() {
           Geo-Tagging of CCTV Cameras
           </h1>
 
-          <Map className={styles.homeMap} width="800" height="400" center={DEFAULT_CENTER} zoom={12}>
+          <Map className={styles.homeMap} width="800" height="400" center={{lat:26.9124, lng:75.7396}} zoom={12}>
             {({ TileLayer, Marker, Popup }) => (
               <>
                 <TileLayer
                   url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                   attribution="&copy; <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
                 />
-                <Marker position={DEFAULT_CENTER}>
+                <Marker position={{lat:26.9124, lng:75.7396}}>
                   <Popup>
                     A pretty CSS3 popup. <br /> Easily customizable.
                   </Popup>
