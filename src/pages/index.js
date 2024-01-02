@@ -34,7 +34,7 @@ export default function Home() {
                 />
                 <Marker position={{lat:26.9124, lng:75.7396}}>
                   <Popup>
-                    A pretty CSS3 popup. <br /> Easily customizable.
+                    Address <br /> Camera Details <br/> <button> View Livestream </button> <br/> <button> Contact Owner </button>
                   </Popup>
                 </Marker>
               </>
