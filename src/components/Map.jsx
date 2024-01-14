@@ -12,6 +12,8 @@ const DEFAULT_HEIGHT = 600;
 
 const Map = () => {
 
+    
+
     const [coord, setCoord] = useState([26.9124, 75.7873])
 
     const SearchLocation = () => {
@@ -52,7 +54,7 @@ const Map = () => {
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 />
-
+                   
                 <Marker icon={
                     new L.Icon({
                         iconUrl: MarkerIcon.src,
@@ -68,6 +70,23 @@ const Map = () => {
                     <br/> Address <br /> <br /> Camera Details <br/> <br/> <button> View Livestream </button> <br/> <br/> <button> Contact Owner </button> <br/>
                     </Popup>
                 </Marker>
+
+                <Marker icon={
+                    new L.Icon({
+                        iconUrl: MarkerIcon.src,
+                        iconRetinaUrl: MarkerIcon.src,
+                        iconSize: [25, 41],
+                        iconAnchor: [12.5, 41],
+                        popupAnchor: [0, -41],
+                        shadowUrl: MarkerShadow.src,
+                        shadowSize: [41, 41],
+                    })
+                } position={[26.9124, 75.7873]}>
+                     <Popup>
+                    <br/> Address <br /> <br /> Camera Details <br/> <br/> <button> View Livestream </button> <br/> <br/> <button> Contact Owner </button> <br/>
+                    </Popup>
+                </Marker>
+
             </MapContainer>
         </div>
     )
