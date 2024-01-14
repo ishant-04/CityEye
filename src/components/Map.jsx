@@ -7,9 +7,12 @@ import 'leaflet/dist/leaflet.css'
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import { useState } from 'react'
 
+const DEFAULT_WIDTH = 600;
+const DEFAULT_HEIGHT = 600;
+
 const Map = () => {
 
-    const [coord, setCoord] = useState([51.505, -0.09])
+    const [coord, setCoord] = useState([26.9124, 75.7873])
 
     const SearchLocation = () => {
         return (
@@ -39,12 +42,12 @@ const Map = () => {
 
     return (
         <div>
-            <SearchLocation />
-            <GetMyLocation />
+            {/* <SearchLocation />
+            <GetMyLocation /> */}
             <MapContainer style={{
-                height: '100vh',
-                width: '100vw'
-            }} center={coord} zoom={13} scrollWheelZoom={false}>
+                height: "70vh",
+                width: "70vw"
+            }} center={coord} zoom={12} scrollWheelZoom={true}>
                 <TileLayer
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -60,9 +63,9 @@ const Map = () => {
                         shadowUrl: MarkerShadow.src,
                         shadowSize: [41, 41],
                     })
-                } position={[51.505, -0.09]}>
+                } position={[26.8668712,75.816524]}>
                      <Popup>
-                        A pretty CSS3 popup. <br /> Easily customizable.
+                    <br/> Address <br /> <br /> Camera Details <br/> <br/> <button> View Livestream </button> <br/> <br/> <button> Contact Owner </button> <br/>
                     </Popup>
                 </Marker>
             </MapContainer>
