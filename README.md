@@ -5,7 +5,7 @@
 
 Features Centralized Portal Creating a web portal to offer a unified access point to all project functionalities.
 
-                                                                    --- Developed --- 
+<h3>DEVELOPED</h3>
 Camera Registration and Licensing Handling registration for privately owned cameras, ensuring they are voluntarily provided and licensed appropriately.
 
 Interactive Map An interactive map displays all geo-tagged cameras, providing easy access and information about their locations.
@@ -15,7 +15,8 @@ Real-time Footage Retrieval Authorized individuals can quickly retrieve real-tim
 Standardized Data Collection Implementing fixed standards for data and metadata collection, simplifying data stream maintenance and storage.
 
 Owner Contact Information Enabling easy access to camera data along with options to quickly contact the owner, facilitating faster response in policing.
-                                                              --- Planned / In-Development ---
+
+<H3>Planned / In-Development</H3>
 Real-time Image Processing Implementing image processing algorithms for automated object identification, aiding quick analysis of camera feeds.
 
 Threat Alerts Running real-time algorithms to identify and alert potential threats for appropriate action.
