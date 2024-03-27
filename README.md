@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align = "center" >  Geo-Tagging System of CCTV Cameras for Centralized Surveillance </h1>
+<h2> Developed as Part of Rajasthan Police Hackathon - Problem Statement 6 </h2>
 
-## Getting Started
+**Overview:**   This project aims to create a centralized web portal that acts as a hub for managing privately owned cameras. It provides a single point of access to all functionalities related to camera registration, access to real-time footage, standardized data collection, and more.
 
-First, run the development server:
+Features Centralized Portal Creating a web portal to offer a unified access point to all project functionalities.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+                                                                    --- Developed --- 
+Camera Registration and Licensing Handling registration for privately owned cameras, ensuring they are voluntarily provided and licensed appropriately.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Interactive Map An interactive map displays all geo-tagged cameras, providing easy access and information about their locations.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Real-time Footage Retrieval Authorized individuals can quickly retrieve real-time footage from selected cameras through the portal.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Standardized Data Collection Implementing fixed standards for data and metadata collection, simplifying data stream maintenance and storage.
 
-## Learn More
+Owner Contact Information Enabling easy access to camera data along with options to quickly contact the owner, facilitating faster response in policing.
+                                                              --- Planned / In-Development ---
+Real-time Image Processing Implementing image processing algorithms for automated object identification, aiding quick analysis of camera feeds.
 
-To learn more about Next.js, take a look at the following resources:
+Threat Alerts Running real-time algorithms to identify and alert potential threats for appropriate action.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Camera and Footage Health Check Monitoring camera health and notifying owners in case of required repairs or maintenance.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Software and Tech Stack : JavaScript, Next.js (React), Node.js,MongoDB,AWS Lambda, AWS Kinesis, LeafletJS, OpenStreetMap (OSM) DB , ( tech for AI / Computer vision functionalities need to be decided )
+
+
+
+
+<h1 align  = " Center " >SETUP</h1> 
+<h2>
+1. Download and Extract Files
+2. npm install
+3. npm run dev
+</h2>
